@@ -1,61 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayantan Dutta - Personal Website</title>
+    <title>Sayantan Dutta - Researcher Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             background-color: #f4f4f4;
         }
-        header {
-            background-color: #007acc;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        img {
-            width: 200px;
-            height: 200px;
-            border-radius: 75px;
-            margin-top: 10px;
-        }
+
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            background: white;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
+
+        .image-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-column img {
+            width: 200px; /* Adjust as necessary */
+            height: auto;
+            border-radius: 50%; /* Makes the image circular */
+        }
+
+        .bio-column {
+            flex: 2;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
         h2 {
-            color: #007acc;
-        }
-        .section {
-            margin: 20px 0;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
+            font-size: 1.2em;
             color: #555;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .research-interests,
+        .work-experience,
+        .education,
+        .publications {
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 1.5em;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Sayantan Dutta</h1>
-        <h3>Postdoctoral Associate</h3>
-        <img src="SauantanDutta.jpg" alt="Sayantan Dutta">
-    </header>
     <div class="container">
-        <div class="section">
-            <h2>About Me</h2>
+        <div class="image-column">
+            <img src="SayantanDutta.jpg" alt="Sayantan Dutta"> <!-- Replace with your image URL -->
+        </div>
+        <div class="bio-column">
+            <h1>Sayantan Dutta</h1>
+            <h2>Postdoctoral Associate</h2>
+            <p>The Department of Radiology, Weill Cornell Medicine,<br>Cornell University, New York, USA</p>
             <p>I am Sayantan Dutta, a researcher with a multidisciplinary background in mathematics, physics, and computer science. Currently, I am a postdoctoral associate at Weill Cornell Medicine, Cornell University, New York, USA.</p>
             <p>My research interests span quantitative acoustic microscopy, quantum computing, quantum image processing, deep learning, and inverse problems.</p>
-        </div>
+
+            <div class="research-interests">
+                <div class="section-title">Research Interests:</div>
+                <p><strong>Quantum Computing:</strong> Signal representation in a quantum computer, internal circuit noise removal in a quantum processor, and adaptive thresholding of a noisy quantum state.</p>
+                <p><strong>Quantum Image Processing:</strong> Quantum mechanics-based adaptive transformation, image decomposition using quantum many-body interaction theory, image formation, and reconstruction.</p>
+                <p><strong>Deep Learning:</strong> Designing novel networks, deep unfolded networks, and customized convolution kernels based on quantum mechanical laws for solving inverse problems.</p>
+                <p><strong>Quantitative Ultrasound:</strong> Study the acoustical and mechanical properties of soft tissues at microscopic resolution for tissue characterization using quantitative acoustic microscopy.</p>
+                <p><strong>Medical Image Processing:</strong> Analyze biomechanical properties of the sclera in myopic guinea pigs using very high-frequency ultrasounds and computed tomography image processing.</p>
+            </div>
+
+            <div class="work-experience">
+                <div class="section-title">Work Experience:</div>
+                <p><strong>Apr 2023 - Present:</strong> Postdoctoral Associate in Quantitative Ultrasound - Weill Cornell Medicine, NY, USA</p>
+                <p><strong>Feb 2023 - Mar 2023:</strong> Postdoctoral Fellow in Ultrasound Imaging - University of Lyon, Lyon, France</p>
+            </div>
+
+            <div class="education">
+                <div class="section-title">Education:</div>
+                <p><strong>2019 - 2023:</strong> Ph.D. in Computer Science - University Paul Sabatier Toulouse III, Toulouse, France</p>
+                <p><strong>2018 - 2019:</strong> M.Sc. in Fundamental Physics - The University of Tours, Tours, France</p>
+                <p><strong>2016 - 2018:</strong> M.Sc. in Applied Mathematics - The Visva-Bharati University, Santiniketan, India</p>
+                <p><strong>2013 - 2016:</strong> B.Sc. in Mathematics - The University of Burdwan, Bardhaman, India</p>
+            </div>
         
         <div class="section">
             <h2>Research Interests</h2>
