@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
   },
   // Add base config for GitHub Pages
   // Change 'paper-paths-portfolio' to your repository name if different
-  base: mode === 'production' ? '/paper-paths-portfolio/' : '/',
+  base: mode === 'production' ? '/' : '/',
   plugins: [
     react(),
     mode === 'development' &&
