@@ -15,42 +15,32 @@ interface Certificate {
 const CertificatesSection: React.FC = () => {
   const certificates: Certificate[] = [
     {
-      name: "Deep Learning Specialization",
-      issuer: "Coursera (deeplearning.ai)",
-      date: "March 2022",
-      credentialId: "DLSP-123456",
-      credentialLink: "https://example.com/credential/123456",
-      skills: ["Neural Networks", "CNN", "RNN", "Transformers", "TensorFlow"]
+      name: "Introduction to Artificial Intelligence with Python",
+      issuer: "Artificial and Natural Intelligence Toulouse Institute (ANITI), Federal University of Toulouse, France",
+      date: "March - May 2021",
+      credentialLink: "https://en.univ-toulouse.fr/node/2377",
+      skills: ["Neural Networks", "Data Pipeline", "CNN", "RNN", "NLP", "PyTorch", "TensorFlow", "AI Ethics"]
     },
     {
-      name: "Advanced NLP with TensorFlow",
-      issuer: "Udacity",
-      date: "November 2021",
-      credentialId: "ANLP-789012",
-      credentialLink: "https://example.com/credential/789012",
-      skills: ["TensorFlow", "BERT", "Transfer Learning", "NLP", "Text Classification"]
+      name: "Recent Developments in Quantum Mechanics",
+      issuer: "Université Paul Sabatier, Toulouse III, Toulouse, France",
+      date: "March - June 2022",
+      credentialLink: "https://ed-sdm.univ-toulouse.fr/as/ed/page.pl?site=edsdm&page=presentation",
+      skills: ["Quantum Computing", "Quantum Circuits Design", "Quantum Cryptography"]
     },
     {
-      name: "Machine Learning Engineering for Production",
-      issuer: "Coursera (deeplearning.ai)",
-      date: "June 2021",
-      credentialId: "MLEP-345678",
-      credentialLink: "https://example.com/credential/345678",
-      skills: ["MLOps", "Model Deployment", "Data Pipeline", "TFX", "Kubernetes"]
+      name: "The Statistics of Cosmological Perturbations",
+      issuer: "Institute of Space Astrophysics (IAS), Université Paris-Saclay, Paris, France",
+      date: "May 2021",
+      credentialLink: "https://www.ias.u-psud.fr/fr/formation/enseignements/doctorat/formation-doctorale",
+      skills: ["Cosmological Perturbations", "ΛCDM Model", "Dark Energy and Dark Matter", "Galaxy Formation"]
     },
     {
-      name: "Ethics in AI",
-      issuer: "edX (Harvard University)",
+      name: "Ethics and Scientific Integrity",
+      issuer: "Université Paul Sabatier, Toulouse III, Toulouse, France",
       date: "February 2021",
-      skills: ["AI Ethics", "Fairness", "Transparency", "Responsible AI"]
-    },
-    {
-      name: "Cloud Computing for Machine Learning",
-      issuer: "Google Cloud Training",
-      date: "September 2020",
-      credentialId: "CCML-901234",
-      credentialLink: "https://example.com/credential/901234",
-      skills: ["GCP", "Cloud ML", "Kubernetes", "Docker", "Vertex AI"]
+      credentialLink: "https://adum.fr/as/ed/edmitt/page.pl?page=contact",
+      skills: ["Research Integrity", "Ethical Research"]
     }
   ];
 
