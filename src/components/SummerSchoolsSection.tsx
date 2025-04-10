@@ -10,42 +10,47 @@ interface SummerSchool {
   location: string;
   date: string;
   description: string;
+  credentialLink?: string;
   topics: string[];
 }
 
 const SummerSchoolsSection: React.FC = () => {
   const schools: SummerSchool[] = [
     {
-      name: "Deep Learning Summer School",
-      organizer: "Montreal Institute for Learning Algorithms (MILA)",
-      location: "Montreal, Canada",
-      date: "July 2022",
-      description: "Intensive two-week program covering advanced topics in deep learning with hands-on sessions led by top researchers in the field.",
-      topics: ["Graph Neural Networks", "Generative Models", "Self-Supervised Learning"]
+      name: "Methodological and Societal Challenges of Deep Learning",
+      organizer: "GRETSI, France",
+      location: "Peyresq, France",
+      date: "June - July 2022",
+      description: "Explore cutting-edge advancements in deep learning, tackling methodological and societal challenges. Engage in hands-on programming exercises and insightful research talks addressing domain adaptation, privacy-preserving techniques, ethical considerations in AI, natural language processing (NLP), data explainability challenges, and hardware acceleration.",
+      credentialLink: "https://gretsi.fr/peyresq22/",
+      topics: ["Domain Adaptation", "Privacy-Preserving", "Ethical Issues in AI", "NLP", "Data Explainability Challenges", "Hardware Acceleration"]
     },
     {
-      name: "NLP Summer School",
-      organizer: "Oxford University",
-      location: "Oxford, UK",
-      date: "August 2021",
-      description: "Focused on advanced natural language processing techniques and transformer architectures with practical workshops and research discussions.",
-      topics: ["Transformers", "Multilingual NLP", "Semantic Parsing"]
+      name: "Quantum Sensing and Imaging",
+      organizer: "Vienna Center for Quantum Science and Technology, Vienna University of Technology",
+      location: "Vienna, Austria",
+      date: "September 2021",
+      description: "Delve into the forefront of quantum sensing and imaging technologies. Participate in practical workshops and research discussions covering quantum sensing, imaging with entangled photons, quantum circuits, and advanced quantum algorithms.",
+      credentialLink: "https://vcq.quantum.at/summer-school-2021/",
+      topics: ["Quantum Sensing", "Imaging with Entangled Photons", "Quantum Circuits", "Quantum Algorithms"]
     },
     {
-      name: "Reinforcement Learning Summer School",
-      organizer: "University of Alberta",
-      location: "Edmonton, Canada",
-      date: "June 2020",
-      description: "Covered fundamental and advanced concepts in reinforcement learning with hands-on programming exercises and research talks.",
-      topics: ["Deep RL", "Policy Gradients", "Multi-agent RL"]
+      name: "Signal and Image Processing for the Co-design of Innovative Imaging Systems: Physics, Mathematics, Algorithms",
+      organizer: "GRETSI, France",
+      location: "Peyresq, France",
+      date: "June 2021",
+      description: "Immerse yourself in the integration of physics, mathematics, and algorithms for innovative imaging systems. Engage in hands-on programming exercises and research talks covering image acquisition physics, Bayesian optimization, and mathematical aspects of inverse problems.",
+      credentialLink: "https://gretsi.fr/peyresq20/",
+      topics: ["Image Acquisition Physics", "Bayesian Optimization", "Mathematical Aspects of Inverse Problems"]
     },
     {
-      name: "Machine Learning for Healthcare Summer School",
-      organizer: "MIT",
-      location: "Cambridge, USA",
-      date: "July 2019",
-      description: "Focused on applications of machine learning to healthcare challenges, including medical imaging, patient data analysis, and clinical decision support.",
-      topics: ["Medical Imaging", "Clinical NLP", "Time Series Analysis"]
+      name: "Summer School on Image Processing",
+      organizer: "The University of Szeged",
+      location: "Szeged, Hungary",
+      date: "July 2020",
+      description: "Focus on applying machine learning to healthcare challenges, including medical imaging and real-time patient data analysis. Explore topics such as computer vision in 2D and 3D, tomography image reconstruction, satellite imagery analysis, flaws in neural networks, and real-time navigation in medical procedures.",
+      credentialLink: "https://www.inf.u-szeged.hu/~ssip/2020/index.php/planned-program/",
+      topics: ["Computer Vision in 2D and 3D", "Tomography Image Reconstruction", "Satellite Imagery", "Medical Imaging", "Flaws in Neural Networks", "Real-Time Navigation in Medical Procedures"]
     }
   ];
 
