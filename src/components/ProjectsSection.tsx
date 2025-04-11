@@ -15,27 +15,34 @@ interface Project {
 const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
-      title: "NLP Research Framework",
-      description: "An extensible framework for natural language processing research, supporting various transformer architectures and datasets.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&h=400&q=80",
-      technologies: ["Python", "PyTorch", "Transformers", "Docker"],
-      githubLink: "https://github.com/username/nlp-research-framework",
-      liveLink: "https://example.com/demo"
+      title: "Quantum Mechanics Based Image Processing",
+      description: "A pioneering framework in image restoration inspired by quantum mechanics principles, focusing on efficient decomposition algorithms tailored for medical and scientific imaging applications. This approach enables superior feature extraction and reconstruction capabilities.",
+      image: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=600&h=400&q=80",
+      technologies: ["MATLAB", "Quantum Mechanics", "Image Processing", "Quantum Interaction", "Adaptive Decomposition"],
+      githubLink: "https://github.com/SayantanDutta95/De-QuIP-Denoising"
+      liveLink: "https://github.com/SayantanDutta95/presentation_posters/blob/main/flow_DeQuIP.pdf"
     },
     {
-      title: "Scientific Paper Analyzer",
-      description: "A tool that uses machine learning to analyze and extract insights from scientific papers across multiple domains.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=600&h=400&q=80",
-      technologies: ["Python", "TensorFlow", "NLP", "React"],
+      title: "Quantum Computing for Imaging",
+      description: "Innovating tools designed to identify and mitigate internal circuit noise within quantum processors, enhancing computational accuracy and reliability of quantum algorithms for imaging. This project introduces novel techniques for adaptive thresholding of noisy quantum states, thereby improving signal fidelity in quantum information processing.",
+      image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&h=400&q=80",
+      technologies: ["Qiskit", "Quantum Information", "Quantum Computing", "Quantum Decoherence", "Quantum Noise", "Quantum Signal", "Grover's Algorithm", "MATLAB"],
       githubLink: "https://github.com/username/scientific-paper-analyzer"
     },
     {
-      title: "Multilingual Sentiment Analysis",
-      description: "Implementation of sentiment analysis models that work across 50+ languages with high accuracy.",
+      title: "Quantitative Microscopy Ultrasound",
+      description: "Advancing research in quantitative acoustic microscopy to extract acoustical and mechanical properties of soft tissues at microscopic scales. This project combines regularization by denoising (RED) with the alternating direction method of multipliers (ADMM) for high-resolution 3D radio-frequency ultrasound microscopy image enhancement, facilitating enhanced tissue characterization.",
+      image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=600&h=400&q=80",
+      technologies: ["Python", "MATLAB", "Optimization", "Ultrasound Imaging", "Tissue Analysis", "Acoustic Microscopy", "3D Radio Frequency Signal"],
+      githubLink: "https://github.com/SayantanDutta95/RED-ADMM-De-QuIP",
+    },
+    {
+      title: "Medical Imaging",
+      description: "Pushing the boundaries in medical imaging with advanced techniques aimed at enhancing cardiac ultrasound images for improved diagnostic capabilities. This research also explores innovative methods for reconstruction and restoration in computed tomography (CT) imaging, contributing to enhanced medical diagnostics.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&h=400&q=80",
-      technologies: ["Python", "Scikit-learn", "FastAPI", "Vue.js"],
-      githubLink: "https://github.com/username/multilingual-sentiment",
-      liveLink: "https://example.com/sentiment-demo"
+      technologies: ["Python", "MATLAB", "Deep Learning", "3D Enhancement", "Ultrasound Imaging", "Tissue Analysis", "Motion in Medical Image", "CT Reconstruction", "Medical Diagnostics"],
+      githubLink: "https://github.com/SayantanDutta95/Cardiac-USimage-Enhancement",
+      demoLink: "https://github.com/SayantanDutta95/Cardiac-USimage-Enhancement/blob/main/Restored_Cardiac_images/patient02_movie.gif"
     }
   ];
 
